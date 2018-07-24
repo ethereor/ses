@@ -49,9 +49,8 @@ margin-top: 30px;
 
 .blog-masthead {
 background: #22B5D1;
-border-bottom: 1px solid #fff;
 padding: 10px 0 10px 0;
-margin-bottom: 50px;
+
 }
 
 /* Nav links */
@@ -105,11 +104,14 @@ margin-bottom: 50px;
 }
 
 /* Sidebar modules for boxing content */
+.blog-sidebar{
+margin-top: 50px;
+}
 .sidebar-module {
   width:300px;
   float: right;
   padding: 15px;
-  margin: 0 0px 15px;
+  margin: 0px 0px 30px;
       /* background: #FEFDE8; */
     border: 1px solid #ddd;
     padding: 45px 40px 50px;
@@ -154,17 +156,25 @@ margin-bottom: 50px;
  */
 
 .blog-post {
-  margin-bottom: 60px;
+
   padding: 30px;
   background: #fff;
+  margin-top: 50px;
+}
+.single-post {
+  padding:50px;
+  font-size: 19px;
+  margin-top: 0px !important;
+  letter-spacing: -0.18px;
+  line-height: 34px;
 }
 .blog-post-title {
   margin-bottom: 5px;
   font-size: 30px;
-  color: #999;
+  color: #555;
 }
 .blog-post-title a{
-  color: #333; text-decoration: none; font-weight: 700;
+  color: #555; text-decoration: none; font-weight: 700;
 }
 .blog-post-meta {
   margin-bottom: 20px;
@@ -184,8 +194,12 @@ margin-bottom: 50px;
   text-align: center;
   border-radius: 1px;
   color: #fff;
-  padding: 5px 20px 5px 20px;
+  padding: 15px 30px 15px 30px;
   margin-top: 15px;
+}
+
+.comments-area{
+  background: #fffded;
 }
 /*
  * Footer

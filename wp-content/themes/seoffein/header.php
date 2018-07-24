@@ -28,7 +28,7 @@
 <div class="blog-masthead">
   <div class="container">
     <div class="logo">
-      <h1><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+      <h1><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo "seogan";#get_bloginfo( 'name' ); ?></a></h1>
       <h2><?php echo get_bloginfo( 'description' ); ?></h2>
     </div>
     <nav class="blog-nav" style="float: right;">
