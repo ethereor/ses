@@ -162,16 +162,18 @@ margin-top: 50px;
   margin-top: 50px;
 }
 .single-post {
-  padding:50px;
+   background: #fff;
   font-size: 19px;
   margin-top: 0px !important;
   letter-spacing: -0.18px;
   line-height: 34px;
 }
+
 .blog-post-title {
   margin-bottom: 5px;
   font-size: 30px;
   color: #555;
+  font-weight: bold;
 }
 .blog-post-title a{
   color: #555; text-decoration: none; font-weight: 700;
@@ -199,7 +201,21 @@ margin-top: 50px;
 }
 
 .comments-area{
+  padding: 50px;
   background: #fffded;
+}
+.comments-title{text-align: center;}
+.comment-list{list-style: none; padding: 0;}
+.comment-form-comment label{ display: block;}
+#comment{width: 100%; height: 100px}
+.comment-body p{margin-bottom: 0px;}
+.comment-body {padding-bottom: 25px;}
+.submit{
+    background: #FC6644;
+  text-align: center;
+  border-radius: 1px;
+  color: #fff;
+  padding: 5px 20px 5px 20px;
 }
 /*
  * Footer
@@ -234,4 +250,26 @@ margin-top: 50px;
 }
 .blog-nav li a {
     color: #fff; text-decoration: none;
+}
+
+/*Content*/
+.chapter{
+padding: 50px;
+}
+.chapter h1 {
+text-align: center;
+font-size:40px;
+font-weight: bold;
+font-family: "Raleway";
+}
+.chapter h2 {
+  text-align: center;
+font-size:30px;
+font-family: "Open Sans";
+}
+.grey-background{
+  background: #fbfbfb;
+}
+.actionitem{
+  padding: 20px; border: 4px dashed #ccc;
 }

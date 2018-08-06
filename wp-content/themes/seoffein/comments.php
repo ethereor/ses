@@ -1,14 +1,14 @@
 <?php if ( post_password_required() ) {
 	return;
 } ?>
-	<div id="comments" class="comments-area blog-post single">
+	<div id="comments" class="comments-area single-post">
 		<?php if ( have_comments() ) : ?>
-			<h3 class="comments-title">
+			<h2 class="comments-title">
 				<?php
-				printf( _nx( 'One comment on “%2$s”', '%1$s comments on “%2$s”', get_comments_number(), 'comments title'),
+				printf( _nx( 'Ein Kommentar', '%1$s Kommentare', get_comments_number(), 'comments title'),
 					number_format_i18n( get_comments_number() ), get_the_title() );
 				?>
-			</h3>
+			</h2>
 			<ul class="comment-list">
 				<?php 
 				wp_list_comments( array(

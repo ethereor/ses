@@ -9,13 +9,16 @@
 <button>Jetzt Anmelden</button>
           </div>
           <div class="sidebar-module">
-            <h4>Archives</h4>
+            <h4>Beliebt</h4>
 <ol class="list-unstyled">
-  <?php wp_get_archives( 'type=monthly' ); ?>
+  <li><a href="http://localhost/seoffein/2018/07/21/hello-world/">Hello World</a></li>
 </ol>
           </div>
          
-
+ <div class="sidebar-module">
+<h4>Nächster Post 08/2018</h4>
+ How to do stuff
+ </div>
 
          
         </div><!-- /.blog-sidebar -->
